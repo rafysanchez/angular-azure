@@ -2,9 +2,10 @@
   "name": "angular-azure",
   "version": "0.0.0",
   "scripts": {
+    "gitbuild":"ng build --prod --base-href /start-angular/SB-Admin-BS4-Angular-7/master/dist/",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
